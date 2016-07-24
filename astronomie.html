@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Astronomie </title>
+<link rel="shortcut icon" href="img/icon.png">
+<link href="css/cosmos.css" rel="stylesheet" type="text/css">
+<link href="css/meniu.css" rel="stylesheet" type="text/css">
+<link href="css/animate.css" rel="stylesheet" type="text/css">
+<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js" type="text/javascript"></script>
+<script src="http://iamdanfox.github.io/typetype/jquery.typetype.min.js" type="text/javascript"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src = "http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js" type="text/javascript"></script>
+<script src="http://iamdanfox.github.io/typetype/jquery.typetype.min.js" type="text/javascript"></script>
+<script>
+$(document).ready(function(){	
+$("#prima1").click(function(){
+$("#soarelemeleucont").hide();
+$(".lectiePlaneta").hide(); 
+$(".prima").show();
+});
+$("#soarelemeleu").click(function(){
+$(".lectiePlaneta").hide(); 
+$(".prima").hide();
+$("#soarelemeleucont").show();
+});
+$("#mercur1").click(function(){
+$(".lectiePlaneta").hide(); 
+$(".prima").hide();
+$("#mercur2").show();
+$("#soarelemeleucont").hide();
+});
+$("#venus1").click(function(){
+$(".lectiePlaneta").hide();
+$(".prima").hide();
+$("#venus2").show();
+$("#soarelemeleucont").hide();
+});
+$("#terra1").click(function(){
+$(".lectiePlaneta").hide(); 
+$(".prima").hide();
+$("#terra2").show();
+$("#soarelemeleucont").hide();
+});
+$("#marte1").click(function(){
+$(".lectiePlaneta").hide(); 
+$(".prima").hide();
+$("#marte2").show();
+$("#soarelemeleucont").hide();
+});
+$("#jupiter1").click(function(){
+$(".lectiePlaneta").hide(); 
+$(".prima").hide();
+$("#jupiter2").show();
+$("#soarelemeleucont").hide();
+});
+$("#saturn1").click(function(){
+$(".lectiePlaneta").hide(); 
+$(".prima").hide();
+$("#saturn2").show();
+$("#soarelemeleucont").hide();
+});
+$("#uranus1").click(function(){
+$(".lectiePlaneta").hide(); 
+$(".prima").hide();
+$("#uranus2").show();
+$("#soarelemeleucont").hide();
+});
+$("#neptun1").click(function(){
+$(".lectiePlaneta").hide(); 
+$(".prima").hide();
+$("#neptun2").show();
+$("#soarelemeleucont").hide();
+});
+$("#pluto1").click(function(){
+$(".lectiePlaneta").hide();
+$(".prima").hide();
+$("#pluto2").show();
+$("#soarelemeleucont").hide();
+});
+
+$("#strat4_poze").click(function(){
+$("#diag").animate({
+height:'toggle'
+});
+$("#date-mercur").animate({
+height:'toggle'
+});
+$("#spatiugol").animate({
+height:'toggle'
+});
+});
+$("#venb").click(function(){
+$("#venplan").animate({
+opacity:'toggle'
+});
+$("#venplan").animate({
+opacity:'toggle'
+});
+$("#venplan").animate({
+opacity:'toggle'
+});
+$("#venplan").animate({
+opacity:'toggle'
+});
+$("#venplan").animate({
+opacity:'toggle'
+});
+
+$("#vendiag").animate({
+opacity:'toggle'
+});
+$("#vendiag").animate({
+opacity:'toggle'
+});
+$("#vendiag").animate({
+opacity:'toggle'
+});
+$("#vendiag").animate({
+opacity:'toggle'
+});
+$("#vendiag").animate({
+opacity:'toggle'
+});
+});
+$("#decearth").click(function(){
+$("#strearth").animate({height:'toggle', width: 'toggle'});
+$("#dateearth").animate({height:'toggle', width: 'toggle'});
+$("#videarth").fadeIn();
+});
+});
+$(function() {
+$('#stratul1').hover( function() {
+$('#strat1_text').show();
+$('#strat2_text').hide();
+$('#strat3_text').hide();
+$('#strat4_text').hide();
+});
+});
+$(function() {
+$('#stratul2').hover( function() {
+$('#strat2_text').show();
+$('#strat1_text').hide();
+$('#strat3_text').hide();
+$('#strat4_text').hide();
+});
+});
+$(function() {
+$('#stratul3').hover( function() {
+$('#strat3_text').show();
+$('#strat1_text').hide();
+$('#strat2_text').hide();
+$('#strat4_text').hide();
+});
+});
+$(function() {
+$('#stratul4').hover( function() {
+$('#strat4_text').show();
+$('#strat1_text').hide();
+$('#strat2_text').hide();
+$('#strat3_text').hide();
+});
+});
+$(function() {
+$('#paravan1').click( function() {
+$('#paravan1').fadeOut();
+});
+});
+$(function() {
+$('#paravan2').click( function() {
+$('#paravan2').fadeOut();
+});
+});
+$(function() {
+$('#decpluto').on('click', function() {
+$('#contpluto1').typetype(" Pluto (numit adesea Pluton, mai ales in lucrari mai vechi) este o planeta pitica din Sistemul Solar, a doua ca masa dupa Eris si, ca volum, cea mai mare planeta pitica. A fost descoperita in anul 1930 de catre astronomul american Clyde William Tombaugh. Obiectele cu orbite asemanatoare cu cea a lui Pluto se mai numesc plutine. Pana in 2006 a fost considerata a a noua planeta a Sistemului Solar, atat in ordinea distantei fata de Soare, cat si a descoperirii. Pluto impreuna cu satelitul sau Charon sunt uneori considerate sistem binar, deoarece baricentrul orbitelor nu se afla in interiorul niciunuia dintre cele doua corpuri.", {
+e: 0,
+t: 10,
+
+});
+
+$('#contpluto2').typetype("	Pluto a fost descoperit in 1930, dar putinele informatii despre indepartata planeta au intarziat o intelegere realista a insusirilor sale. Unicitatea orbitei, relatiile rotationale cu satelitul sau, axa de rotatie si variatiile de lumina ii confera o imagine deosebita. In cea mai mare a timpului, Pluto este mai departe de Soare decat oricare din cele opt planete ale Sistemului Solar, dar datorita excentricitatii orbitei, timp de 20 de ani din cei 249 cat dureaza miscarea sa de revolutie, Pluto este mai aproape de Soare decat Neptun.", {
+e: 0,
+t: 10,
+
+});
+$('#datefizicepluto').fadeIn();
+
+});
+});
+
+</script>
+<style>
+.mydiv{
+position:relative;
+text-align: center;
+}
+.mydiv img{
+position:absolute;
+top:0;
+left:0;
+}
+::-webkit-scrollbar {
+width: 20px;
+height: 20px;
+background: transparent;
+}
+::-webkit-scrollbar-button {
+width: 0px;
+height: 0px;
+}
+::-webkit-scrollbar-thumb {
+background-color: #818B99;
+border: 3px solid transparent;
+border-radius: 100px;
+background-clip: content-box;
+}
+::-webkit-scrollbar-track {
+background: transparent;
+border: 0px none #ffffff;
+border-radius: 100px;
+}
+::-webkit-scrollbar-track:hover {
+background: transparent;
+}
+::-webkit-scrollbar-track:active {
+background: transparent;
+}
+::-webkit-scrollbar-corner {
+background: transparent;
+}
+html{
+overflow: none;
+height: 100%; 
+background-image: url("img/stars.jpg");
+background-attachment: fixed;
+background-size: cover;
+}
+.centrat { 
+border: 7px #000033;
+border-style: double;
+margin: 0 auto;
+padding-left: 2%;
+padding-top: 2%;
+background-image:url("img/backgr.png");
+overflow: auto;
+}
+.planete_meniu{
+width: 100px;
+height: 100px;
+cursor: pointer;
+opacity: 0.8;
+}
+.planete_meniu:hover{
+opacity: 1;
+}
+h1{
+color: #ffff33;
+font-size: 25px;
+}
+p{
+color: #ff3333;
+font-size:20px;
+}
+.figcaption{
+text-color: #ff3333;
+font-size:20px;
+}
+p::selection{
+background: #b6b6af;
+}
+.lectiePlaneta{
+display:none;
+color:white;
+}
+.prima{
+font-size: 32px;
+}
+.par1 {
+width: 603px;
+height: 345px;
+position: relative;
+-webkit-animation-name: panf;
+-webkit-animation-duration: 1s; 
+animation-name: panf;
+animation-duration: 1s;
+}
+.par2 {
+position: relative;
+-webkit-animation-name: parf;
+-webkit-animation-duration: 1s; 
+animation-name: parf;
+animation-duration: 1s;
+
+}
+
+@-webkit-keyframes panf {
+0%   { left:0px; top:0px}
+20%  { left:60px; top:-60px;}
+40%  { left:-60px; top:-60px;}
+60%  { left:0px; top:60px;}
+80% { left:60px; top:-60px;}
+100% { left:0px; top:0px;}
+}
+@-webkit-keyframes parf {
+0%   { left:0px; top:0px;}
+20%  { left:0px; top:-60px;}
+40%  { left:-60px; top:60px;}
+60%  { left:60px; top:0px;}
+80% { left:-60px; top:0px;}
+100% { left:0px; top:0px;}
+}
+
+.pozven {
+-webkit-animation-name: vensa;
+-webkit-animation-duration: 2s;
+position: relative;
+}
+
+@-webkit-keyframes vensa {
+0%   {left:0px;top:0px;}
+50%   {left:0px;top:-300px;}
+100%  {left:0px;top:0px;}
+}
+
+.videoven {
+-webkit-animation-name: venba;
+-webkit-animation-duration: 2s;
+position: relative;
+}
+
+@-webkit-keyframes venba {
+0%   {left:0px;top:0px;}
+50%   {left:0px;top:-300px;}
+100%  {left:0px;top:0px;}
+}
+#cursmarte {
+-webkit-animation-name: cursmart;
+-webkit-animation-duration: 5s;
+position: relative;
+}
+
+@-webkit-keyframes cursmart {
+0%   {left:0px;top:0px;}
+50%   {left:-100%;top:0px;}
+100%  {left:0px;top:0px;}
+}
+#cursvidmarte {
+-webkit-animation-name: cursvidmart;
+-webkit-animation-duration: 5s;
+position: relative;
+}
+
+@-webkit-keyframes cursvidmart {
+0%   {left:0px;top:0px;}
+50%   {left:300%;top:0px;}
+100%  {left:0px;top:0px;}
+}
+
+.topright {
+position: absolute;
+top: 8px;
+right: 16px;
+font-size: 18px;
+}
+
+
+</style>
+</head>
+<body class="fadeIn" id="sch"  style="scroll-x:hidden;scroll-y:auto; -webkit-animation-duration:4s"> <font face="comic sans ms" size="20">
+<div class="dock-container2" align="center">
+<img src="planete/mercur.png"  class="planete_meniu" id="mercur1"> 
+<img src="planete/venus.png" class="planete_meniu" id="venus1"> 
+<img src="planete/terra.png" class="planete_meniu" id="terra1"> 
+<img src="planete/marte.png" class="planete_meniu" id="marte1"> 
+<img src="planete/jupiter.png" class="planete_meniu" id="jupiter1"> 
+<img src="planete/saturn.png" class="planete_meniu" id="saturn1"> 
+<img src="planete/uranus.png" class="planete_meniu" id="uranus1"> 
+<img src="planete/neptun.png" class="planete_meniu" id="neptun1"> 
+<img src="planete/pluto.png" class="planete_meniu" id="pluto1"> 
+</div>
+<a href="http://rebuildtheuniverse.com/"><img src="img/rebuilt.jpg" class="topright" width="100px" height="100px" style="border-radius: 10%"></a>
+
+
+<div id="undiv" class="centrat" style="position: fixed; left: 10%; top:120px; right: 10%; bottom: 15px;">
+
+<center><iframe src="http://www.solarsystemscope.com/embed/sssemb.html?lang=en" width="800" height="500" style="border:0;" class="prima"></iframe>
+<p class="prima"><i>"Astronomia oblig&#259; spiritul s&#259; priveasc&#259; spre cer &#351;i ne conduce din aceast&#259; lume &#238;ntr-o alta."</i></p><p class="prima" align="right">-Platon&nbsp;&nbsp;&nbsp;&nbsp;</p></center>
+<div id="mercur2" class="lectiePlaneta">
+<center><img src="planete/mercurt.png"></center>
+<img src="img/mrcrpl.jpg" align="right" width="320px" height="320px">
+<p> Mercur este planeta cea mai apropiat&#259; de Soare, &#238;nconjur&#226;ndu-l o dat&#259; la fiecare 88 zile p&#259;m&#226;ntene.
+Luminozitatea sa variaz&#259; &#238;ntre -2,0 &#351;i 5,5 &#238;n magnitudine aparent&#259;, dar nu este u&#351;or de v&#259;zut fiindc&#259; 
+cea mai mare separare unghiular&#259; (cea mai mare elonga&#355;ie) fa&#355;&#259; de Soare este de doar 28,3 grade, 
+&#238;nsemn&#226;nd c&#259; se poate vedea doar imediat dup&#259; apusul Soarelui. &#238;n perioada 1974-1975, Mercur a fost studiat&#259;
+cu ajutorul sondei Mariner 10, care a cartografiat doar 40-45% din suprafa&#355;a planetei. &#238;ncep&#226;nd din 2011, sonda spa&#355;ial&#259; MESSENGER
+orbiteaz&#259; &#238;n jurul planetei pentru a studia compozi&#355;ia chimic&#259;, geologia &#351;i c&#226;mpul magnetic.<br></p>
+<table>
+<tr>
+<td>
+<img src="img/mercur-straturi.png" width="340px" height="350px">
+</td>
+<td style="padding-left:20px; padding-right:20px;">
+<div id="straturi">
+<a name="down"><img src="img/butonnr1.png" style="cursor: pointer" width="50px" height="50px" id="stratul1"></a>
+<br>
+<img src="img/butonnr2.png" style="cursor: pointer" width="50px" height="50px" id="stratul2">
+<br>
+<img src="img/butonnr3.png" style="cursor: pointer" width="50px" height="50px" id="stratul3">
+</div>
+</td>
+<td>
+<div id="text-straturi">
+<p style="display:none; text-size:10;" id="strat1_text">Se crede c&#259; planeta Mercur are o crust&#259; &#238;n jur de 100-200km grosime. O tr&#259;s&#259;tur&#259; distinctiv&#259; a planetei Mercur este c&#259; are foarte multe rifturi, 
+unele extinz&#226;ndu-se pe sute de kilometri. Se crede c&#259; acestea s-au format &#238;n timp ce nucleul &#351;i mantaua planetei s-au r&#259;cit &#351;i s-au contractat dup&#259;
+ce crusta s-a solidificat.</p>
+
+<p style="display:none; text-size:10;" id="strat2_text"> Nucleul este mare &#351;i bogat &#238;n fier. Geologii estimeaz&#259; c&#259; nucleul planetei Mercur ocup&#259; aproximativ 42% din volumul s&#259;u 
+(nucleul P&#259;m&#226;ntului ocup&#259; aproximativ 17% din volumul s&#259;u).
+</p>
+
+<p style="display:none; text-size:10;" id="strat3_text"> Deasupra nucleului este mantaua care are 600km grosime. Se crede c&#259; &#238;n trecutul planetei Mercur, un impact catastrofal a avut loc, fiind lovit&#259; de un corp cu diametrul de c&#226;teva sute
+de kilometri care a catapultat o mare parte din mantaua original&#259;, rezult&#226;nd o manta relativ sub&#355;ire &#238;n compara&#355;ie cu nucleul ei mare.
+</p>
+</div>
+</td>
+</td>
+</tr>
+</table>
+<a href="#down"><center><img src="img/rosu.png" height="50px" width="50px" id="strat4_poze"></center></a>
+<center><img src="img/datefizice-mercur.png" style="display:none" width="560px" height="380px" id="date-mercur" style="padding-right:100px">
+<img src="img/compozitie-mercur.png" style="display:none; padding-left:100px;" width="560px" height="380px" id="diag"></center>
+<div style="height: 400px;" id="spatiugol"></div>
+</div>
+<div id="venus2" class="lectiePlaneta">
+<center><img src="img/rosu.png" height="50px" width="50px" id="venb" style="padding-bottom: 15px"><img src="planete/venust.png"></center>
+<img src="img/vnspl.jpg" align="right" width="320px" height="320px" id="venplan" style="display: none; padding-left: 20px">
+<p> Venus este a doua planet&#259; ca distan&#355;&#259; fa&#355;&#259; de Soare &#238;n sistemul nostru solar. Situat&#259; la 108 milioane km de Soare, Venus &#238;&#351;i parcurge orbita &#238;n 224,7 de zile. Rota&#355;ia &#238;n jurul propriei sale axe este foarte lent&#259;, dureaz&#259; 243 de zile &#351;i are loc de la vest la est, &#238;n sens invers fa&#355;&#259; de rota&#355;ia celorlalte planete. Cu un diametru de 12.100km, Venus este, ca pozi&#355;ie, a doua planet&#259; (pornind de la Soare) din sistemul solar, orbita sa fiind cuprins&#259; &#238;ntre cea a planetelor Mercur &#351;i P&#259;m&#226;nt. </p>
+<img src="img/venus-orbita.gif" id="vendiag" style="display: none; padding-right:20px" align="left"><p style="padding-left: 20px; padding-right: 20px;"><br><br>Venus orbiteaz&#259; Soarele la o distan&#355;&#259; medie de circa 108 milioane de kilometri (circa 0,7 UA), &#351;i efectueaz&#259; o orbit&#259; la circa 224,65 zile. De&#351;i toate orbitele planetare sunt eliptice, a lui Venus este cea mai apropiat&#259; de forma circular&#259;, cu o excentricitate mai mic&#259; de 0,01.</p>
+<br><br>
+<center><video width="560px" class="videoven" height="450px" controls>				
+<source src="img/venus.mp4" type="video/mp4"></video>&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="img/datefizice-venus.png" class="pozven" width="560px" height="380px">
+</center>
+
+</div>
+<div id="terra2" class="lectiePlaneta">
+<center><img src="planete/terrat.png"></center>
+<center><table width="100%" height="25%">
+<tr>
+<td width="45%" class="mydiv">
+
+<p> Planeta P&#259;m&#226;nt (numit&#259; &#351;i Terra sau "Planeta albastr&#259;") este a treia planet&#259; dup&#259; distan&#355;a fa&#351;&#259; de Soare &#351;i a cincea ca m&#259;rime &#238;n sistemul solar. Terra face parte dintre planetele interioare ale sistemului solar (planetele aflate &#238;n interiorul centurii de asteroizi). Este cea mai mare planet&#259; teluric&#259; din sistemul solar, &#351;i singura din Univers cunoscut&#259; ca ad&#259;postind via&#355;&#259; (controverse legate de existen&#355;a vie&#355;ii extraterestre continu&#259; s&#259; existe). </p>
+<img src="img/paravan.png" width="635px" height="225px" id="paravan1">
+</td>
+<td>
+<img src="img/rotearth.gif" width="200px" height="200px">
+</td>
+<td width="45%" class="mydiv">
+<p> Relieful P&#259;m&#226;ntului, foarte variat ca form&#259; &#351;i dimensiuni, se afl&#259; ad&#226;nc &#238;nr&#259;d&#259;cinat &#238;n structurile interne ale P&#259;m&#226;ntului p&#226;n&#259;
+la nivelul mantalei, ceea ce determin&#259; caracterul tectono-structural al acestuia.
+P&#259;m&#226;ntul are o structur&#259; concentric&#259; format&#259; din mai multe &#238;nveli&#351;uri, dispuse pe o grosime de peste 6000km: atmosfera,
+hidrosfera, biosfera, litosfera, mantaua &#351;i nucleul.</p>
+<img src="img/paravan.png" width="635px" height="225px" id="paravan2">
+</td>
+</tr>
+</table>
+</center>
+<br>
+<table align="center" width="100%">
+<tr>
+<td >
+<center><img src="img/structurainterna-terra.png" id="strearth" style="display:none"></center>
+</td>
+<td>
+<center><img src="img/rosu.png" height="50px" width="50px" id="decearth"></center>
+</td>
+<td>
+<center><img src="img/datefizice-terra.png" width="560px" id="dateearth" height="380px" style="display:none"></center>
+</td>
+</tr>
+</table>
+<center><video width="560px" height="450px" style="display:none" id="videarth" controls>				
+<source src="img/earth.mp4" type="video/mp4"></video></center>
+
+
+</div>
+<div id="marte2" class="lectiePlaneta">
+<center><img src="planete/martet.png"></center>
+<img src="img/marte1.png" align="right" width="320px" height="320px" id="cursmarte">
+<br><p id="marp1">Marte este, pornind dinspre Soare, a patra planet&#259; a Sistemului Solar. Uneori mai este numit&#259; &#351;i "planeta ro&#351;ie" datorit&#259; &#238;nf&#259;&#355;i&#351;&#259;rii sale v&#259;zut&#259; de pe P&#259;m&#226;nt. Culoarea ro&#351;iatic&#259; se explic&#259; prin prezen&#355;a pe suprafa&#355;a sa a oxidului de fier.
+Marte este o planet&#259; teluric&#259; (de tip terestru) cu o atmosfer&#259; sub&#355;ire; printre caracteristicile suprafe&#355;ei se num&#259;r&#259; &#351;i craterele de impact ce amintesc de Lun&#259;, dar &#351;i vulcani, v&#259;i, de&#351;erturi &#351;i calote glaciare polare ce amintesc de P&#259;m&#226;nt.  </p>
+<br><br>
+<center><img class="flipInY" style="-webkit-animation-duration:3s;" src="img/datefizice-marte.png" width="560px" id="dateearth" height="380px"></center>
+<table width="100%">
+<tr>
+<td>
+	<video width="560px" height="450px" id="cursvidmarte" controls>				
+		<source src="img/mars.mp4" type="video/mp4"></video>
+		</td>
+		<td>
+			<p style="padding-left:20px;">&#238;nf&#259;&#355;i&#351;area ro&#351;iatic&#259; a planetei se datoreaz&#259; oxidului de fier de la suprafa&#355;&#259;. Raza planetei Marte reprezint&#259; jum&#259;tate din cea a Terrei, iar masa sa, doar o zecime; este mai pu&#355;in dens&#259;, dar aria suprafe&#355;ei sale este doar cu pu&#355;in mai mic&#259; ca aria suprafe&#355;ei uscate a P&#259;m&#226;ntului. Marte se considera c&#259; are v&#226;rsta de 4,5 miliarde de ani, v&#226;rst&#259; derivat&#259; din m&#259;sur&#259;tori izotopice pe meteori&#355;i &#351;i implicit extins&#259; la planetele de tip terestru (Mercur, Venus, Terra &#351;i Marte).
+				Ziua mar&#355;ian&#259; dureaz&#259; cu o jum&#259;tate de or&#259; mai mult dec&#226;t ziua terestr&#259; &#351;i este uneori numit&#259; sol iar anul mar&#355;ian dureaz&#259; aproape c&#226;t doi echivalen&#355;i p&#259;m&#226;nte&#351;ti. Sateli&#355;ii lui Marte sunt &#238;n num&#259;r de doi, numi&#355;i dup&#259; c&#226;inii zeului Marte (Phobos &#351;i Deimos). Ace&#351;tia sunt ni&#351;te corpuri mici, &#238;ntunecate &#351;i puternic marcate de cratere, la origine put&#226;nd fi ni&#351;te asteroizi capta&#355;i de gravita&#355;ia Planetei Ro&#351;ii. Satelitul Phobos, datorit&#259; perioadei sale de revolu&#355;ie sideral&#259; mult mai mic&#259; dec&#226;t perioada de rota&#355;ie sideral&#259; a planetei, are mi&#351;care aparent&#259; de la vest spre est &#351;i r&#259;sare &#351;i apune de c&#226;te 2 ori &#238;ntr-o zi mar&#355;ian&#259;.</p>
+			</td>
+		</tr>
+	</table>
+
+</div>
+<div id="jupiter2" class="lectiePlaneta">
+	<center><img src="planete/jupitert.png"></center>
+	<table>
+		<tr>
+			<td>
+				<p class="lightSpeedIn" style="-webkit-animation-duration:3s;">Jupiter este a cincea planeta de la Soare si este cea mai mare dintre toate planetele din Sistemul solar. Are diametrul de 11 ori mai mare decat cel al Pamantului, o masa de 318 ori mai mare si un volum de 1300 ori mai mare. Jupiter este al patrulea obiect de pe cer ca stralucire (dupa Soare, Luna si Venus; si cateodata Marte). A fost cunoscut din timpuri preistorice. Descoperirea de catre Galileo Galilei si Simon Marius, in 1610, ai celor patru mari sateliti ai lui Jupiter: Io, Europa, Ganymede si Callisto (cunoscute ca satelitii Galileeni) a fost prima descoperire a unui centru de miscare aparent necentrat pe Pamant.</p>
+			</td>
+			<td>
+				<div align="right"><img class="slideInRight" style="-webkit-animation-duration:3s;" src="planete/jupiter.png" align="right" width="320px" height="320px"></div>
+			</td>
+		</tr>
+	</table>
+	<center><img class="rotateInDownLeft" style="-webkit-animation-duration:3s;" src="img/datefizice-jupiter.png" width="560px" height="380px"></center>
+	<p id="contjup2">
+		Jupiter are un c&#226;mp magnetic uria&#351;, mult mai puternic ca al P&#259;m&#226;ntului. Magnetosfera lui se extinde pe mai mult de 650 milioane de km (dup&#259; orbita lui Saturn!). (De notat este c&#259; magnetosfera lui Jupiter e departe de a fi sferic&#259; se extinde spre soare "doar" 4,3 milioane de kilometri). Lunile lui Jupiter sunt cuprinse &#238;n magnetosfera lui, ceea ce explic&#259; par&#355;ial activitatea de pe Io. Din p&#259;cate pentru viitoarele c&#259;l&#259;torii spa&#355;iale &#351;i o problem&#259; mare pentru proiectan&#355;ii sondelor Voyager &#351;i Galileo, mediul de l&#226;ng&#259; Jupiter prezint&#259; mari cantit&#259;&#355;i de particule prinse de c&#226;mpul magnetic al lui Jupiter. Aceast&#259; "radia&#355;ie" este similar&#259;, dar mult mai intens&#259; dec&#226;t cea observat&#259; &#238;n centurile Van Allen ale P&#259;m&#226;ntului. Ar fi fatal&#259; pentru orice fiin&#355;&#259; uman&#259; neprotejat&#259;.
+	</p><center>
+	<figure>
+		<img src="img/jupiter-diagrama.png" width="750" height="480">
+		<figcaption> <p>By Kelvinsong - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=31764016</p></figcaption>
+	</figure></center>
+
+</div>
+<div id="saturn2" class="lectiePlaneta">
+	<center><img src="planete/saturnt.png"></center>
+
+	<table width="100%" align="center">
+		<tr>
+			<td align="center">
+				<img  class="par1"src="img/satdown.png" id="box">
+			</td>
+			<td align="center">
+				<p class="par2">Saturn este a &#351;asea planet&#259; de la Soare &#351;i a doua ca m&#259;rime din Sistemul Solar, dup&#259; Jupiter. 	&#238;mpreun&#259; cu Jupiter, Uranus &#351;i Neptun, Saturn este clasificat ca un gigant gazos. Aceste planete sunt numite corpuri joviane, adic&#259; planete asem&#259;n&#259;toare cu Jupiter.
+
+					Saturn prezint&#259; un sistem de inele, care sunt alc&#259;tuite din particule de ghea&#355;&#259; &#351;i mici cantit&#259;&#355;i de de&#351;euri de praf &#351;i roc&#259;. 62 de sateli&#355;i cunoscu&#355;i orbiteaz&#259; &#238;n jurul planetei, f&#259;r&#259; a socoti particulele din inele. Titan, cel mai mare satelit al lui Saturn &#351;i al doilea satelit ca m&#259;rime din Sistemul Solar (dup&#259; Ganimede, satelitul lui Jupiter), este mai mare ca planeta Mercur &#351;i este singurul satelit din Sistemul Solar care are o atmosfer&#259; cu o consisten&#355;&#259; semnificativ&#259;.
+				</p>
+			</td>
+		</tr>
+	</table>
+
+	<center><img src="img/datefizice-saturn.png" class="par1" width="560px" height="380px"></center>
+	<p>
+		Inelele planetei Saturn dateaz&#259; de mult mai mult timp dec&#226;t s-a considerat p&#226;n&#259; acum de cercet&#259;tori &#351;i ar putea rezista pentru o perioad&#259; nelimitat&#259; de timp. Aceste noi date au fost oferite de sonda spa&#355;ial&#259; Cassini. Oamenii de &#351;tiin&#355;&#259; au demonstrat c&#259; particulele ce formeaz&#259; inelele care orbiteaz&#259; &#238;n jurul lui Saturn au 3 miliarde de ani. De&#351;i &#238;n aparen&#355;&#259; inelele lui Saturn par ni&#351;te forma&#355;iuni tinere, ele ar putea fi la fel de b&#259;tr&#226;ne ca &#351;i Sistemul Solar.
+
+		Sonda Cassini a studiat inelele cu ajutorul unui spectru special cu ultraviolete. Particulele astfel observate au fost asemuite ca m&#259;rime de la granule de nisip, p&#226;n&#259; la buldozere. Ultimele descoperiri cu privire la planeta Saturn, veche de 4 miliarde de ani, ar&#259;tau c&#259; inelele sale dateaz&#259; de acum 100 de milioane de ani, c&#226;nd o lun&#259; uria&#351;&#259; sau o comet&#259; ar fi p&#259;truns &#238;n atmosfera planetei Saturn.
+
+		Sonda spa&#355;ial&#259; Cassini, lansat&#259; &#238;n octombrie 1997, av&#226;nd la bord modulul de explorare Huygens, a inclus &#351;i planeta Saturn &#238;n programul s&#259;u de explorare.
+	</p>
+	<center><img src="img/saturn-diagrama.png" width="750px" height="480px"></center>
+</div>
+<div id="uranus2" class="lectiePlaneta">
+	<center><img src="planete/uranust.png"></center>
+	<img src="planete/uranus.png" class="flipInY" style="-webkit-animation-duration: 2s;" align="right" width="320px" height="320px">
+	<p class="slideInLeft" style="-webkit-animation-duration: 2s;"> Uranus este a &#351;aptea planet&#259; de la Soare &#351;i a treia ca m&#259;rime (dup&#259; diametru). Uranus este mai mare ca diametru &#238;ns&#259; mai mic&#259; sub aspectul masei dec&#226;t Neptun.
+
+		Plasat pe o orbit&#259; de 19 ori mai &#238;ndep&#259;rtat&#259; de Soare dec&#226;t cea a P&#259;m&#226;ntului, Uranus, ca &#351;i Neptun, prime&#351;te foarte pu&#355;in&#259; c&#259;ldur&#259;. Cu un diametru de 52.000 km, Uranus este de 2 ori mai mic dec&#226;t Saturn, dar de 5 ori mai mare dec&#226;t Terra (P&#259;m&#226;ntul). Este &#238;nconjurat de inele &#238;ntunecate &#351;i are 27 sateli&#355;i.
+	</p>
+	<center><img src="img/datefizice-uranus.png" class="tada" style="-webkit-animation-duration: 2s;" width="560px" height="380px"></center>
+	<p class="zoomInDown" style="-webkit-animation-duration: 5s;">
+		Uranus este zeitatea greac&#259; ancestral&#259; a Raiurilor, un zeu suprem timpuriu. Uranus a fost fiul &#351;i partenerul Gaiei tat&#259;l lui Cronos (Saturn) &#351;i al ciclopilor &#351;i titanilor (predecesorii zeilor olimpici).
+
+		Uranus, prima planet&#259; descoperit&#259; &#238;n vremurile moderne, a fost descoperit&#259; de William Herschel &#238;n timp ce scruta sistematic cerul cu telescopul personal pe 13 martie 1781. A fost de fapt v&#259;zut&#259; de mai multe ori, fiind &#238;ns&#259; ignorat&#259;, deoarece era considerat&#259; o alt&#259; stea obi&#351;nuit&#259; (cea mai timpurie semnalare a sa a fost f&#259;cut&#259; &#238;n 1690 c&#226;nd John Flamsteed o considera 34 Tauri). Herschel a numit-o "Georgium Sidus" (Planeta Georgian&#259;) &#238;n onoarea patronului s&#259;u, Regele George al III-lea al Angliei; al&#355;ii i-au zis "Herschel". Numele de "Uranus" a fost propus pentru prima dat&#259; de Bode &#238;n conformitate cu numele altor planete inspirate din mitologia clasic&#259;, &#238;ns&#259; nu a intrat &#238;n uz p&#226;n&#259; &#238;n 1850.
+
+		Uranus a fost vizitat&#259; doar de o nav&#259;, Voyager 2 pe 24 ianuarie 1986.
+	</p>
+</div>
+
+
+<div id="neptun2" class="lectiePlaneta">
+	<center><img src="planete/neptunt.png"></center>
+	<table width="100%"><tr><td width="25%"><marquee direction="right"><img src="planete/neptun.png" align="right" width="320px" height="320px"></marquee></td>
+		<td>
+			<p>Neptun este a opta &#351;i cea mai &#238;ndep&#259;rtat&#259; planet&#259; de Soare din sistemul solar. Numit&#259; dup&#259; zeul roman al m&#259;rii, este a patra planet&#259; dup&#259; diametru &#351;i a treia dup&#259; mas&#259;. Neptun are o mas&#259; de 17 ori mai mare dec&#226;t cea a P&#259;m&#226;ntului &#351;i pu&#355;in mai mare dec&#226;t masa lui Uranus, care este de 15 ori mai greu dec&#226;t P&#259;m&#226;ntul, dar nu la fel de dens. Neptun orbiteaz&#259; &#238;n jurul Soarelui la o distan&#355;&#259; de 30,1 unit&#259;&#355;i astronomice, ceea ce &#238;nseamn&#259; c&#259; orbita sa este de aproximativ 30 de ori mai mare dec&#226;t orbita P&#259;m&#226;ntului.</p></td></tr></table>
+			<center><img src="img/datefizice-neptun.png" width="560px" height="380px"></center>
+			<p>
+				<script type="text/javascript">
+					$(function() {
+						$('#stratul11').hover( function() {
+							$('#strat1_textnept').show();
+							$('#strat2_textnept').hide();
+							$('#strat3_textnept').hide();
+							$('#strat4_textnept').hide();
+						});
+					});
+					$(function() {
+						$('#stratul22').hover( function() {
+							$('#strat2_textnept').show();
+							$('#strat1_textnept').hide();
+							$('#strat3_textnept').hide();
+							$('#strat4_textnept').hide();
+						});
+					});
+					$(function() {
+						$('#stratul33').hover( function() {
+							$('#strat3_textnept').show();
+							$('#strat1_textnept').hide();
+							$('#strat2_textnept').hide();
+							$('#strat4_textnept').hide();
+						});
+					});
+					$(function() {
+						$('#stratul44').hover( function() {
+							$('#strat4_textnept').show();
+							$('#strat1_textnept').hide();
+							$('#strat2_textnept').hide();
+							$('#strat3_textnept').hide();
+						});
+					});
+
+				</script>
+				<table>
+					<tr>
+						<td>
+							<img src="img/neptun-straturi.png" width="340px" height="350px">
+						</td>
+						<td style="padding-left:20px; padding-right:20px;">
+							<div id="straturi">
+								<a name="down"><img src="img/butonnr1.png" style="cursor: pointer" width="50px" height="50px" id="stratul11"></a>
+								<br>
+								<img src="img/butonnr2.png" style="cursor: pointer" width="50px" height="50px" id="stratul22">
+								<br>
+								<img src="img/butonnr3.png" style="cursor: pointer" width="50px" height="50px" id="stratul33">
+								<br>
+								<img src="img/butonnr4.png" style="cursor: pointer" width="50px" height="50px" id="stratul44">
+							</div>
+						</td>
+						<td>
+							<div id="text-straturi">
+								<p style="display:none; text-size:10;" id="strat1_textnept">
+									1.Atmosfera superioar&#259; a planetei
+								</p>
+
+								<p style="display:none; text-size:10;" id="strat2_textnept"> 
+									2.Atmosfera format&#259; din heliu, oxigen, hidrogen &#351;i gaz metan
+								</p>
+
+								<p style="display:none; text-size:10;" id="strat3_textnept"> 
+									3.Mantaua alc&#259;tuit&#259; din ap&#259;, amoniac &#351;i metan
+								</p>
+
+								<p style="display:none; text-size:10;" id="strat4_textnept"> 
+									4.Nucleul format din roc&#259; &#351;i ghea&#355;&#259;
+								</p>
+							</div>
+						</td>
+					</td>
+				</tr>
+			</table>
+		</p>
+	</div>
+
+
+
+	<div id="pluto2" class="lectiePlaneta">
+		<center><img src="planete/plutot.png"></center>
+		<img src="planete/pluto.png" align="right" width="320px" height="320px">
+		<table><tr><td><img src="img/rosu.png" id="decpluto" height="50px" width="50px"></td><td><p id="contpluto1"> </p></td></tr></table>
+		<center><img src="img/datefizice-pluto.png" width="560px" id="datefizicepluto" style="display: none" height="380px"></center>
+		<p id="contpluto2">
+		</p>
+
+	</div>
+	<div id="soarelemeleucont" style="display: none">
+		<center><img src="planete/soaret.png"></center>
+		<table>
+			<tr>
+				<td>
+					<p class="lightSpeedIn" style="-webkit-animation-duration: 3s">Soarele este steaua aflat&#259; &#238;n centrul Sistemului nostru Solar. Masa total&#259; a P&#259;m&#226;ntului, a tuturor celorlalte planete, asteroizi, meteoroizi, comete precum &#351;i a prafului interplanetar care orbiteaz&#259; &#238;n jurul Soarelui, reprezint&#259; abia 0,14% din masa &#238;ntregului Sistem Solar, &#238;n timp ce masa Soarelui reprezint&#259; 99,86%.
+						<br>Energia provenit&#259; de la Soare (sub forma luminii, c&#259;ldurii &#351;.a.) face posibil&#259; &#238;ntreaga via&#355;&#259; de pe P&#259;m&#226;nt, de exemplu prin fotosintez&#259;, iar prin intermediul c&#259;ldurii &#351;i clima favorabil&#259;.
+						<br>Hidrogenul reprezint&#259; aproximativ 74% din masa Soarelui, heliul 25%, iar restul este constituit din cantit&#259;&#355;i mici de elemente mai grele. Datorit&#259; acestei compozi&#355;ii &#351;i a temperaturilor ridicate, pe Soare nu exist&#259; o crust&#259; (scoar&#355;&#259;) solid&#259;, &#351;i nici materie &#238;n stare lichid&#259;, toat&#259; materia solar&#259; fiind &#238;n &#238;ntregime &#238;n stare de plasm&#259; &#351;i gazoas&#259;.</p>
+					</td>
+					<td>
+						<img src="planete/soarele.png" class="bounceIn" style="-webkit-animation-duration: 2s" align="right" width="320px" height="320px">
+					</td>
+				</tr>
+			</table>
+			<center><img src="img/soare-diagrama.png" class="rotateInUpLeft" style="-webkit-animation-duration: 3s"></center><br>
+			<center><table width="100%"><tr><td align="center"><img src="img/comparatie-soare.jpg" height="300px" width="500px"></td><td align="center"><video width="560px" height="450px" controls><source src="img/sun.mp4" type="video/mp4"></video></td></tr></table></center>
+		</div> 
+	</div>
+	<img src="img/soare-colt.png" id="soarelemeleu" style="position: fixed; width: 150px; height: 150px; cursor: pointer; top:0;left:0;">
+	<table width="100%" style="padding-top: 38%">
+		<tr>
+			<td width="50%">
+				<div align="left"><img src="img/solaryscope.png" class="planete_meniu" style="height:75px; width:75px" id="prima1"></div>
+			</td>
+			<td width="50%">
+				<div align="right"><a href="index.html"><img src="img/back.png" style="padding-left: 2.5%" height="75px" width="75px"></a></div>
+			</td>
+		</tr>
+	</table>
+
+</body>
+</html>
