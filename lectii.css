@@ -1,0 +1,103 @@
+
+.jimgMenu {
+	position: relative;
+	width: 100%;
+	height: 200px;
+	overflow: hidden;
+	margin: 25px 0px 0px;
+	display:block;
+}
+
+.jimgMenu ul {
+	list-style: none;
+	margin: 0px;
+	display: block;
+	height: 200px;
+	width: 1340px;
+
+}
+
+.jimgMenu ul li {
+}
+
+.jimgMenu ul li a {
+	text-indent: -1000px;
+	background:#FFFFFF none repeat scroll 0%;
+	cursor:pointer;
+	display:block;
+	overflow:hidden;
+	width:78px;
+	height: 200px;
+}
+.jimgMenu ul li.logo a {
+	background: url(stele.jpg) no-repeat scroll 0%;
+	min-width:318px;
+
+}
+.jimgMenu ul li.mercur a {
+	background: url(images/mercur.png) repeat scroll 0%;
+}
+
+.jimgMenu ul li.venus a {
+	background: url(images/venus.png) repeat scroll 0%;
+}
+
+.jimgMenu ul li.terra a {
+	background: url(images/terra.png) repeat scroll 0%;
+}
+.jimgMenu ul li.marte a {
+	background: url(images/marte.png) repeat scroll 0%;
+}
+
+.jimgMenu ul li.jupiter a {
+	background: url(images/jupiter.png) repeat scroll 0%;
+
+}
+.jimgMenu ul li.saturn a {
+	background: url(images/saturn.png) repeat scroll 0%;
+
+}
+.jimgMenu ul li.uranus a {
+	background: url(images/uranus.png) repeat scroll 0%;
+
+}
+.jimgMenu ul li.neptun a {
+	background: url(images/neptun.png) repeat scroll 0%;
+
+}
+
+.clear {
+	clear: both;
+}
+#dock2 {
+	width: 100%;
+	bottom: 0px;
+	position: absolute;
+	left: 0px;
+	padding-bottom: 120px;
+}
+.dock-container2 {
+	position: absolute;
+	height: 75px;
+	padding-left: 20px;
+	margin-bottom: 20px;
+}
+a.dock-item2 {
+	display: block; 
+	font: bold 12px Arial, Helvetica, sans-serif;
+	width: 30px; 
+	color: #000; 
+	bottom: 0px; 
+	position: absolute;
+	text-align: center;
+	text-decoration: none;
+}
+.dock-item2 span {
+	display: none;
+	padding-left: 20px;
+}
+.dock-item2 img {
+	border: none; 
+	margin: 5px 10px 0px; 
+	width: 100%; 
+}

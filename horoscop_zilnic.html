@@ -1,0 +1,35 @@
+<html>
+<head>
+	<title>Horoscop</title>
+	<link href="horoscop.css" rel="stylesheet" type="text/css"> 
+	<link rel="shortcut icon" href="img/icon.png">
+	<style>
+		.html{
+			zoom:100%;
+		}
+		iframe{
+			overflow: none;
+			border-radius: 10px;
+			.fixed{
+				position: fixed;
+				bottom: 8px;
+				right: 16px;
+				font-size: 18px;
+				cursor:pointer;
+			}
+		}
+	</style>
+</head>
+<body background="img/stars.jpg">
+	<div align="center">
+		<iframe src="zilnic.html" scrolling="no" width="720" height="85" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" style="padding-top: 5%"> 
+		</iframe><br><br><br>
+		<iframe src="ascendent.php" scrolling="no" width="600" height="140" frameborder="0"></iframe>
+		<br><br><br>
+		<iframe src="compatibilitate-2pers.html" scrolling="no" width="600" height="230" frameborder="0"></iframe>
+		<br><br><br>
+		<iframe src="toate-zodiile.html" scrolling="no" width="600" height="140" frameborder="0"></iframe>
+		<div  align="right"><a href="index.html"><img src="img/back.png" class="fixed" height="100px" width="100px"></a></div>
+	</div>
+</body>
+</html>
